@@ -1,0 +1,107 @@
+{
+    "header": {
+        "namespace": "SkillDebugger",
+        "name": "CaptureDebuggingInfo",
+        "messageId": "facfce12-7eb4-45a1-a800-0e4db94c6700"
+    },
+    "payload": {
+        "skillId": "amzn1.ask.skill.13c3f84a-094a-4281-b558-7c47f24e6254",
+        "timestamp": "2019-03-11T10:56:06.035Z",
+        "dialogRequestId": "b0d7bd62-1929-4789-b0eb-8237ecce962c",
+        "skillRequestId": "amzn1.echo-api.request.da94558f-0f2a-4c17-8274-1c50af10deff",
+        "type": "SkillExecutionInfo",
+        "content": {
+            "invocationRequest": {
+                "endpoint": "https://4c287d90.ngrok.io",
+                "body": {
+                    "version": "1.0",
+                    "session": {
+                        "new": false,
+                        "sessionId": "amzn1.echo-api.session.055e1a54-cff9-4e99-86d6-f2c2ce4ba8ed",
+                        "application": {
+                            "applicationId": "amzn1.ask.skill.13c3f84a-094a-4281-b558-7c47f24e6254"
+                        },
+                        "user": {
+                            "userId": "amzn1.ask.account.AFLY6N34JGAOHI7CNZYDKISXS5GHPGITERX2XVNITDJ4CT73NRRT6JBOHZ4PO7VMIKBEWRBE5HYLDKW4WLH72TXXLRN7DWJWOMTUZURLBMDHUEQOHIJMRPJTLQBLGS5CXLJXLYL2QIWWTG2JKEIVQ5YBP7JCNMTA5CSRT6FMURO3VRFGUW2L4ZR74DBGL7TAU5B6JNVCB2I7N4Y"
+                        }
+                    },
+                    "context": {
+                        "AudioPlayer": {
+                            "playerActivity": "IDLE"
+                        },
+                        "System": {
+                            "application": {
+                                "applicationId": "amzn1.ask.skill.13c3f84a-094a-4281-b558-7c47f24e6254"
+                            },
+                            "user": {
+                                "userId": "amzn1.ask.account.AFLY6N34JGAOHI7CNZYDKISXS5GHPGITERX2XVNITDJ4CT73NRRT6JBOHZ4PO7VMIKBEWRBE5HYLDKW4WLH72TXXLRN7DWJWOMTUZURLBMDHUEQOHIJMRPJTLQBLGS5CXLJXLYL2QIWWTG2JKEIVQ5YBP7JCNMTA5CSRT6FMURO3VRFGUW2L4ZR74DBGL7TAU5B6JNVCB2I7N4Y"
+                            },
+                            "device": {
+                                "deviceId": "amzn1.ask.device.AFA66DKRDBB5S7BW2LEO5AVKN3F3LOZBBF4F34P7PSHSCHQQUK4DPLEDYBKDY56Z4Z4ACETVCGG7MUGHFPG3JLOKLPAIJ64DPXIMYJ3Q7V3T3RCNIY7KPM5PHFFIMQIN4LSBYPZ4GLEXDN4S75KDL7IHL5HY7WNLGGPAJK25CBWQXUIJPXXOE",
+                                "supportedInterfaces": {
+                                    "AudioPlayer": {}
+                                }
+                            },
+                            "apiEndpoint": "https://api.eu.amazonalexa.com",
+                            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjEzYzNmODRhLTA5NGEtNDI4MS1iNTU4LTdjNDdmMjRlNjI1NCIsImV4cCI6MTU1MjMwMjA2NSwiaWF0IjoxNTUyMzAxNzY1LCJuYmYiOjE1NTIzMDE3NjUsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUZBNjZES1JEQkI1UzdCVzJMRU81QVZLTjNGM0xPWkJCRjRGMzRQN1BTSFNDSFFRVUs0RFBMRURZQktEWTU2WjRaNEFDRVRWQ0dHN01VR0hGUEczSkxPS0xQQUlKNjREUFhJTVlKM1E3VjNUM1JDTklZN0tQTTVQSEZGSU1RSU40TFNCWVBaNEdMRVhETjRTNzVLREw3SUhMNUhZN1dOTEdHUEFKSzI1Q0JXUVhVSUpQWFhPRSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGTFk2TjM0SkdBT0hJN0NOWllES0lTWFM1R0hQR0lURVJYMlhWTklUREo0Q1Q3M05SUlQ2SkJPSFo0UE83Vk1JS0JFV1JCRTVIWUxES1c0V0xINzJUWFhMUk43RFdKV09NVFVaVVJMQk1ESFVFUU9ISUpNUlBKVExRQkxHUzVDWExKWExZTDJRSVdXVEcySktFSVZRNVlCUDdKQ05NVEE1Q1NSVDZGTVVSTzNWUkZHVVcyTDRaUjc0REJHTDdUQVU1QjZKTlZDQjJJN040WSJ9fQ.OCL75Q_5yux3sMVFVEe4yLlCjLBn8pCKIOtisYNiMDwpMG7gKJAFPR_W4yjPGIHmYySQoVAJsrOBrvyWCqU0P6Wwlu6ZI8gVTdMLqQhIcHNcqCn7XcyphYIQPX3VRXAaoUw7MsC5_Xxk1KIUql4xPDp3Lr-4sqp0Yj0-bEC6IxlZakWA2KkUXuLRtbbysD3od5bG1ijxszRocyAOL9EE5gh-AD9xhfQg1vHnrZDxuxip8_WyLWJrrlVl-anhKpyKHnw5HWnH2Y1fkrKazbPiWHjDPJzoof3SORryr8zdsl6guZlFOFttcsFfBMjS9hUs22e84y2pETtSsRTj_3xllA"
+                        },
+                        "Viewport": {
+                            "experiences": [
+                                {
+                                    "arcMinuteWidth": 246,
+                                    "arcMinuteHeight": 144,
+                                    "canRotate": false,
+                                    "canResize": false
+                                }
+                            ],
+                            "shape": "RECTANGLE",
+                            "pixelWidth": 1024,
+                            "pixelHeight": 600,
+                            "dpi": 160,
+                            "currentPixelWidth": 1024,
+                            "currentPixelHeight": 600,
+                            "touch": [
+                                "SINGLE"
+                            ]
+                        }
+                    },
+                    "request": {
+                        "type": "IntentRequest",
+                        "requestId": "amzn1.echo-api.request.da94558f-0f2a-4c17-8274-1c50af10deff",
+                        "timestamp": "2019-03-11T10:56:05Z",
+                        "locale": "fr-FR",
+                        "intent": {
+                            "name": "son_du_jour",
+                            "confirmationStatus": "NONE"
+                        }
+                    }
+                }
+            },
+            "invocationResponse": {
+                "body": {
+                    "version": "1.0",
+                    "response": {
+                        "directives": [
+                            {
+                                "type": "AudioPlayer.Play",
+                                "playBehavior": "REPLACE_ALL",
+                                "audioItem": {
+                                    "stream": {
+                                        "token": "flourish-token",
+                                        "url": "https://s3.amazonaws.com/my-ssml-samples/Flourish.mp3",
+                                        "offsetInMilliseconds": 0
+                                    }
+                                }
+                            }
+                        ],
+                        "shouldEndSession": false,
+                        "type": "_DEFAULT_RESPONSE"
+                    }
+                }
+            },
+            "metrics": {
+                "skillExecutionTimeInMilliseconds": 936
+            }
+        }
+    }
+}
